@@ -15,7 +15,7 @@ is-it-maintained-issue-resolution = { repository = "rust-osdev/uefi-rs" }
 is-it-maintained-open-issues = { repository = "rust-osdev/uefi-rs" }
 
 [dependencies]
-uefi = { version = "0.6.0", features = ["alloc", "logger"] }
+uefi = { git = "https://github.com/ankit-iitb/uefi-rs.git", features = ["alloc", "logger"] }
 log = { version = "0.4.11", default-features = false }
 cfg-if = "1.0.0"
 
